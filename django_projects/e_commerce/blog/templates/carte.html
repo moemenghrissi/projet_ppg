@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carte_title</title>
+    <link rel="stylesheet" href="{% static 'css/carte.css' %}">
+</head>
+<body>
+    <div class="card">
+        {% if offre.image %}
+        <img src=" {{ offre.image.url }}" alt="Offre Image">
+        {% else %}
+        <p>No image available</p>
+        {% endif %}
+        <div class="card-body">
+            <h5 class="card-title">{{ offre.type_propiete }}</h5>
+            <p class="card-text">Surface: {{ offre.surface }}</p>
+            <p class="card-text">Nombre de chambres: {{ offre.nbr_chambre }}</p>
+            <p class="card-text">Nombre de salles de bain: {{ offre.nbr_sallebain }}</p>
+            <p class="card-text">Adresse: {{ offre.address }}</p>
+            <p class="card-text">Prix: {{ offre.price }}</p>
+            <a href="#" class="btn btn-primary">Voir plus</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+  

@@ -1,0 +1,82 @@
+/* style pour le corps */
+body {
+    font-family: sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  /* style pour l'en-tête */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* style pour les titres h1 */
+  h1 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* style pour les cartes d'offres */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* style pour les images dans les cartes d'offres */
+  .card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* style pour les liens dans les cartes d'offres */
+  .card a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* style pour la surface de la carte d'offre */
+  .card-surface {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* style pour le loyer de la carte d'offre */
+  .card-price {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* style pour le type de propriété de la carte d'offre */
+  .card-type {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* style pour le nombre de chambres de la carte d'offre */
+  .card_nbrchambre {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* style pour le nombre de salles de bains de la carte d'offre */
+  .card_nbrsalbain {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* style pour l'adresse de la carte d'offre */
+  .adresse {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+    

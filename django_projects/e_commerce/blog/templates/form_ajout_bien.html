@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'nav.html' %}
+
+    {% load  static  %}
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width", initial-scale="1.0">
+    <link rel="stylesheet" href="{% static 'css/formulaire.css' %}">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h2>Gestion des proprietés</h2>
+    <form method="post" class="post-form" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn">Enregistrer</button>
+    </form>
+    
+</body>
+</html>
